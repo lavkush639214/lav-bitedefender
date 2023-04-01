@@ -35,10 +35,10 @@ class Config(object):
     BAN_STICKER = getenv("BAN_STICKER", "")
     ALLOW_EXCL = True
     CUSTOM_CMD = False
-    CHANNEL = getenv("CHANNEL", "bitedefender")
-    SUPPORT = getenv("SUPPORT", "pagal_faimly")
-    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/d56da7c56e6624d4c699f.jpg")
-    CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/d56da7c56e6624d4c699f.jpg")
+    CHANNEL = getenv("CHANNEL", "REAL_FEELINGS_OF_LAV")
+    SUPPORT = getenv("SUPPORT", "TKS_CHATTING_GROUP")
+    START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/0ccd9d17c5bf7ae84cbb9.jpg")
+    CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/0ccd9d17c5bf7ae84cbb9.jpg")
     CASH_API_KEY = getenv("CASH_API_KEY", "https://www.alphavantage.co/support/#api-key")
     TIME_API_KEY = getenv("TIME_API_KEY", "https://timezonedb.com/api")
     WALL_API = getenv("WALL_API", "https://wall.alphacoders.com/api.php")
@@ -48,6 +48,6 @@ class Config(object):
     CF_API_KEY = getenv("CF_API_KEY", "coffehouse.intellivoid.net")
     BOT_API_URL = getenv("BOT_API_URL", "https://api.telegram.org/bot")
     BOT_API_FILE_URL = getenv("BOT_API_FILE_URL", "https://api.telegram.org/file/bot")
-    SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
-    ZAID_USER = list(map(int, getenv("DEV_USERS", "1669178360").split()))
+    SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6296337829").split()))
+    ZAID_USER = list(map(int, getenv("DEV_USERS", "6296337829").split()))
     NO_LOAD = list(map(int, getenv("NO_LOAD", "").split()))
